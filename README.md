@@ -6,4 +6,3 @@ Written in Python 3.6, uses the following modules:
  Markup : * SimpleHTTPServer
           * BeautifulSoup
           * os
-          * requests
