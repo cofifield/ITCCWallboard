@@ -1,0 +1,132 @@
+
+.wallboardTitle {
+	text-align: center;
+	font-size: 15px;
+	color: #fff;
+}
+
+th, tr {
+	text-align: center;
+}
+
+td, tr {
+	background-color: #fff;
+}
+
+tr {
+	font-size: 12px;
+}
+
+td {
+	font-size: 10px;
+}
+
+body {
+    background-color: #0033A0;
+}
+
+.table-curved {
+    border-collapse: separate;
+}
+.table-curved {
+    border: solid #ccc 1px;
+    border-radius: 6px;
+    border-left:0px;
+}
+.table-curved td, .table-curved th {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+.table-curved th {
+    border-top: none;
+}
+.table-curved th:first-child {
+    border-radius: 6px 0 0 0;
+}
+.table-curved th:last-child {
+    border-radius: 0 6px 0 0;
+}
+.table-curved th:only-child {
+    border-radius: 6px 6px 0 0;
+}
+.table-curved tr:last-child td:first-child {
+    border-radius: 0 0 0 6px;
+}
+.table-curved tr:last-child td:last-child {
+    border-radius: 0 0 6px 0;
+}
+
+@media only screen and (min-width : 768px) {
+	.wallboardTitle {
+		text-align: center;
+		font-size: 20px;
+		color: #fff;
+	}
+
+	th, tr {
+		text-align: center;
+	}
+
+	td, tr {
+		background-color: #fff;
+	}
+
+	tr {
+		font-size: 15px;
+	}
+
+	td {
+		font-size: 12px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.wallboardTitle {
+		text-align: center;
+		font-size: 35px;
+		color: #fff;
+	}
+
+	th, tr {
+		text-align: center;
+	}
+
+	td, tr {
+		background-color: #fff;
+	}
+
+	tr {
+		font-size: 20px;
+	}
+
+	td {
+		font-size: 16px;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+	.wallboardTitle {
+		text-align: center;
+		font-size: 45px;
+		color: #fff;
+	}
+
+	th, tr {
+		text-align: center;
+	}
+
+	td, tr {
+		background-color: #fff;
+	}
+
+	tr {
+		font-size: 24px;
+	}
+
+	td {
+		font-size: 20px;
+	}
+}
